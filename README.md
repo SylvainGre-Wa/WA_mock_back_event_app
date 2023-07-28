@@ -9,6 +9,7 @@
 **Docker**
 
 `docker build -t WA_mock_back_envent_app .`
+
 `docker run -p 127.0.0.1:8080:8080 WA_mock_back_envent_app`
 
 
