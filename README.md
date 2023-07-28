@@ -8,9 +8,9 @@
 
 **Docker**
 
-`docker build -t wa_mock_back_envent_app .`
+`docker build -t wa_mock_back_event_app .`
 
-`docker run -p 127.0.0.1:8080:8080 wa_mock_back_envent_app`
+`docker run -p 127.0.0.1:8080:8080 wa_mock_back_event_app`
 
 
 ## Swagger
