@@ -1,14 +1,17 @@
 # WA_mock_back_event_app
 
+## How to run 
 
-## Endpoints disponible
+**CLI**
 
-``GET /event``
+`java -jar WA_mock_back_event_app-0.0.1-SNAPSHOT.jar`
 
-``GET /event/{id}``
+**Docker**
 
-``POST /event``
+`docker build -t WA_mock_back_envent_app .`
+`docker run -p 127.0.0.1:8080:8080 WA_mock_back_envent_app`
 
-``PUT /event``
 
-``DELETE /event/{id}``
+## Swagger
+
+http://localhost:8080/swagger-ui/index.html
